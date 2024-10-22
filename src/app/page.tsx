@@ -518,7 +518,7 @@ function AddNewPart({ onAddNewPart }: { onAddNewPart: (part: Part) => void }) {
             <Input id="partSku" value={sku} onChange={e => setSku(e.target.value)} required />
           </div>
           <div>
-            <Label htmlFor="partStock">Initial Stock</Label>
+            <Label htmlFor="partStock">Part Stock</Label>
             <Input
               id="partStock"
               type="number"
